@@ -1,0 +1,16 @@
+def fake_divide(first, second):
+    if second == 0:
+        return 'Ошибка'
+    else :
+        return first/second
+
+
+
+
+
+
+
+
+
+
+# В true_math создайте функцию divide, которая принимает два параметра first и second. Функция должна возвращать результат деления first на second, но когда в second записан 0 - возвращать бесконечность.
